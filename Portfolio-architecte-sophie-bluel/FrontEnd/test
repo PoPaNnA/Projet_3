@@ -1,0 +1,121 @@
+<!--
+			<figure class="blocks_item objects">
+				<img src="assets/images/abajour-tahina.png" alt="Abajour Tahina">
+				<figcaption>Abajour Tahina</figcaption>
+			</figure>
+			<figure class="blocks_item apartments">
+				<img src="assets/images/appartement-paris-v.png" alt="Appartement Paris V">
+				<figcaption>Appartement Paris V</figcaption>
+			</figure>
+			<figure class="blocks_item hobbies">
+				<img src="assets/images/restaurant-sushisen-londres.png" alt="Restaurant Sushisen - Londres">
+				<figcaption>Restaurant Sushisen - Londres</figcaption>
+			</figure>
+			<figure class="blocks_item apartments">
+				<img src="assets/images/la-balisiere.png" alt="Villa “La Balisiere” - Port Louis">
+				<figcaption>Villa “La Balisiere” - Port Louis</figcaption>
+			</figure>
+			<figure class="blocks_item objects">
+				<img src="assets/images/structures-thermopolis.png" alt="Structures Thermopolis">
+				<figcaption>Structures Thermopolis</figcaption>
+			</figure>
+			<figure class="blocks_item apartments">
+				<img src="assets/images/appartement-paris-x.png" alt="Appartement Paris X">
+				<figcaption>Appartement Paris X</figcaption>
+			</figure>
+			<figure class="blocks_item apartments">
+				<img src="assets/images/le-coteau-cassis.png" alt="Pavillon “Le coteau” - Cassis">
+				<figcaption>Pavillon “Le coteau” - Cassis</figcaption>
+			</figure>
+			<figure class="blocks_item apartments" >
+				<img src="assets/images/villa-ferneze.png" alt="Villa Ferneze - Isola d’Elba">
+				<figcaption>Villa Ferneze - Isola d’Elba</figcaption>
+			</figure>
+			<figure class="blocks_item apartments">
+				<img src="assets/images/appartement-paris-xviii.png" alt="Appartement Paris XVIII">
+				<figcaption>Appartement Paris XVIII</figcaption>
+			</figure>
+			<figure class="blocks_item hobbies">
+				<img src="assets/images/bar-lullaby-paris.png" alt="Bar “Lullaby” - Paris">
+				<figcaption>Bar “Lullaby” - Paris</figcaption>
+			</figure>
+			<figure class="blocks_item hobbies">
+				<img src="assets/images/hotel-first-arte-new-delhi.png" alt="Hotel First Arte - New Delhi">
+				<figcaption>Hotel First Arte - New Delhi</figcaption>
+			</figure>
+
+const tahElement = document.createElement("figure");
+tahElement.classList.add("blocks_item objects");
+document.querySelector(".gallery").appendChild(tahElement);
+const imgtahElement = document.createElement("img");
+document.querySelector(".blocks_item objects").appendChild(imgtahElement);
+const titretahElement = document.createElement("titre");
+titretahElement.innerText = "Abat-jour Tahina";
+document.querySelector(".blocks_item objects").appendChild(titretahElement);
+console.log(titre);
+
+const parvElement = document.createElement("figure");
+parvElement.classList.add("blocks_item apartments");
+document.querySelector(".gallery").appendChild(parvElement);
+const imgparvElement = document.createElement("img");
+document.querySelector(".blocks_item apartments").appendChild(imgparvElement);
+
+
+const sushiElement = document.createElement("figure");
+sushiElement.classList.add("blocks_item hobbies");
+document.querySelector(".gallery").appendChild(sushiElement);
+const imgsushiElement = document.createElement("img");
+document.querySelector(".blocks_item hobbies").appendChild(imgsushiElement);
+
+const balisElement = document.createElement("figure");
+balisElement.classList.add("blocks_item apartments");
+document.querySelector(".gallery").appendChild(balisElement);
+const imgbalisElement = document.createElement("img");
+document.querySelector(".blocks_item apartments").appendChild(imgbalisElement);
+
+const thermElement = document.createElement("figure");
+thermElement.classList.add("blocks_item objects");
+document.querySelector(".gallery").appendChild(thermElement);
+const imgthermElement = document.createElement("img");
+document.querySelector(".blocks_item objects").appendChild(imgthermElement);
+
+
+const parxElement = document.createElement("figure");
+parxElement.classList.add("blocks_item apartments");
+document.querySelector(".gallery").appendChild(parxElement);
+const imgparxElement = document.createElement("img");
+document.querySelector(".blocks_item apartments").appendChild(imgparxElement);
+
+
+const cotElement = document.createElement("figure");
+cotElement.classList.add("blocks_item apartments");
+document.querySelector(".gallery").appendChild(cotElement);
+const imgcotElement = document.createElement("img");
+document.querySelector(".blocks_item apartments").appendChild(imgcotElement);
+
+
+const fernElement = document.createElement("figure");
+fernElement.classList.add("blocks_item apartments");
+document.querySelector(".gallery").appendChild(fernElement);
+const imgfernElement = document.createElement("img");
+document.querySelector(".blocks_item apartments").appendChild(imgfernElement);
+
+const parxviiiElement = document.createElement("figure");
+parxviiiElement.classList.add("blocks_item apartments");
+document.querySelector(".gallery").appendChild(parxviiiElement);
+const imgparxviiiElement = document.createElement("img");
+document.querySelector(".blocks_item apartments").appendChild(imgparxviiiElement);
+
+
+const lullElement = document.createElement("figure");
+lullElement.classList.add("blocks_item hobbies");
+document.querySelector(".gallery").appendChild(lullElement);
+const imglullElement = document.createElement("img");
+document.querySelector(".blocks_item hobbies").appendChild(imglullElement);
+
+
+const arteElement = document.createElement("figure");
+arteElement.classList.add("blocks_item hobbies");
+document.querySelector(".gallery").appendChild(arteElement);
+const imgarteElement = document.createElement("img");
+document.querySelector(".blocks_item hobbies").appendChild(imgarteElement);
