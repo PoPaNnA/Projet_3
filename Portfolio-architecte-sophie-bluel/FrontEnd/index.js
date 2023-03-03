@@ -1,5 +1,3 @@
-import { createElement } from "reacte";
-
 export async function getAllWorks() {
     try {
         const data = await fetch("http://localhost:5678/api/works");
@@ -17,198 +15,177 @@ console.log(section);
 
 /* Creation Gallery */
 
-alert
 
-const tahElement = document.createElement("figure");
-tahElement.classList.add("blocks_item objects");
-document.querySelector(".gallery").appendChild(tahElement);
-const imgtahElement = document.createElement("img");
-imgtahElement.src = "./Backend/images/abajour-tahina1651286843956.png";
-document.querySelector(".blocks_item objects").appendChild(imgtahElement);
-const titretahElement = document.createElement("titre");
-titretahElement.innerText = "Abat-jour Tahina";
-document.querySelector(".blocks_item objects").appendChild(titretahElement);
+const TahinaElement = document.createElement("figure");
+TahinaElement.classList.add("objets");
+const imageTahinaElement = document.createElement("img");
+//imageTahinaElement.url = ;
+const figTahinaElement = document.createElement("figcaption");
+figTahinaElement.innerText = "Abat-jour Tahina";
 
+const ParisvElement = document.createElement("figure");
+ParisvElement.classList.add("appart");
+const imageParisvElement = document.createElement("img");
+const figParisvElement = document.createElement("figcaption");
+figParisvElement.innerText = "Appartement Paris V";
 
-const parvElement = document.createElement("figure");
-parvElement.classList.add("blocks_item appartements");
-document.querySelector(".gallery").appendChild(parvElement);
-const imgparvElement = document.createElement("img");
-document.querySelector(".blocks_item appartements").appendChild(imgparvElement);
-const titreparvElement = document.createElement("titre");
-titreparvElement.innerText = "";
-document.querySelector(".blocks_item appartements").appendChild(titreparvElement);
+const SushisenElement = document.createElement("figure");
+SushisenElement.classList.add("hobbies");
+const imageSushisenElement = document.createElement("img");
+const figSushisenElement = document.createElement("figcaption");
+figSushisenElement.innerText = "Restaurant Sushisen - Londres";
 
+const BalisiereElement = document.createElement("figure");
+BalisiereElement.classList.add("appart");
+const imageBalisiereElement = document.createElement("img");
+const figBalisiereElement = document.createElement("figcaption");
+figBalisiereElement.innerText = "Villa “La Balisière” - Port-Louis";
 
-const sushiElement = document.createElement("figure");
-sushiElement.classList.add("blocks_item hobbies");
-document.querySelector(".gallery").appendChild(sushiElement);
-const imgsushiElement = document.createElement("img");
-document.querySelector(".blocks_item hobbies").appendChild(imgsushiElement);
-const titresushiElement = document.createElement("titre");
-titresushiElement.innerText = "";
-document.querySelector("blocks_item hobbies").appendChild(titresushiElement);
+const ThermopolisElement = document.createElement("figure");
+ThermopolisElement.classList.add("objets");
+const imageThermopolisElement = document.createElement("img");
+const figThermopolisElement = document.createElement("figcaption");
+figThermopolisElement.innerText = "Structures Thermopolis";
 
-const balisElement = document.createElement("figure");
-balisElement.classList.add("blocks_item apartments");
-document.querySelector(".gallery").appendChild(balisElement);
-const imgbalisElement = document.createElement("img");
-document.querySelector(".blocks_item apartments").appendChild(imgbalisElement);
-const titrebalisElement = document.createElement("titre");
-titrebalisElement.innerText = "";
-document.querySelector(".blocks_item appartements").appendChild(titrebalisElement);
+const ParisxElement = document.createElement("figure");
+ParisxElement.classList.add("appart");
+const imageParisxElement = document.createElement("img");
+const figParisxElement = document.createElement("figcaption");
+figParisxElement.innerText = "Appartement Paris X";
 
-const thermElement = document.createElement("figure");
-thermElement.classList.add("blocks_item objects");
-document.querySelector(".gallery").appendChild(thermElement);
-const imgthermElement = document.createElement("img");
-document.querySelector(".blocks_item objects").appendChild(imgthermElement);
-const titrethermElement = document.createElement("titre");
-titrethermElement.innerText = "";
-document.querySelector(".blocks_item objects").appendChild(titrethermElement);
+const CoteauElement = document.createElement("figure");
+CoteauElement.classList.add("appart");
+const imageCoteauElement = document.createElement("img");
+const figCoteauElement = document.createElement("figcaption");
+figCoteauElement.innerText = "Pavillon “Le coteau” - Cassis";
 
+const FernezeElement = document.createElement("figure");
+FernezeElement.classList.add("appart");
+const imageFernezeElement = document.createElement("img");
+const figFernezeElement = document.createElement("figcaption");
+figFernezeElement.innerText = "Villa Ferneze - Isola d’Elba";
 
-const parxElement = document.createElement("figure");
-parxElement.classList.add("blocks_item apartments");
-document.querySelector(".gallery").appendChild(parxElement);
-const imgparxElement = document.createElement("img");
-document.querySelector(".blocks_item apartments").appendChild(imgparxElement);
-const titreparxElement = document.createElement("titre");
-titreparxElement.innerText = "";
-document.querySelector(".blocks_item appartements").appendChild(titreparxElement);
+const ParisxviiiElement = document.createElement("figure");
+ParisxviiiElement.classList.add("appart");
+const imageParisxviiiElement = document.createElement("img");
+const figParisxviiiElement = document.createElement("figcaption");
+figParisxviiiElement.innerText = "Appartement Paris XVIII";
 
+const LullabyElement = document.createElement("figure");
+LullabyElement.classList.add("hobbies");
+const imageLullabyElement = document.createElement("img");
+const figLullabyElement = document.createElement("figcaption");
+figLullabyElement.innerText = "Bar “Lullaby” - Paris";
 
-const cotElement = document.createElement("figure");
-cotElement.classList.add("blocks_item apartments");
-document.querySelector(".gallery").appendChild(cotElement);
-const imgcotElement = document.createElement("img");
-document.querySelector(".blocks_item apartments").appendChild(imgcotElement);
-const titrecotElement = document.createElement("titre");
-titrecotElement.innerText = "";
-document.querySelector(".blocks_item appartements").appendChild(titrecotElement);
+const ArteElement = document.createElement("figure");
+ArteElement.classList.add("hobbies");
+const imageArteElement = document.createElement("img");
+const figArteElement = document.createElement("figcaption");
+figArteElement.innerText = "Hôtel First Arte - New Delhi";
 
 
-const fernElement = document.createElement("figure");
-fernElement.classList.add("blocks_item apartments");
-document.querySelector(".gallery").appendChild(fernElement);
-const imgfernElement = document.createElement("img");
-document.querySelector(".blocks_item apartments").appendChild(imgfernElement);
-const titrefernElement = document.createElement("titre");
-titrefernElement.innerText = "";
-document.querySelector(".blocks_item appartements").appendChild(titrefernElement);
+document.querySelector(".gallery").appendChild(TahinaElement);
+document.querySelector(".objets").appendChild(imageTahinaElement);
+document.querySelector(".objets").appendChild(figTahinaElement);
 
-const parxviiiElement = document.createElement("figure");
-parxviiiElement.classList.add("blocks_item apartments");
-document.querySelector(".gallery").appendChild(parxviiiElement);
-const imgparxviiiElement = document.createElement("img");
-document.querySelector(".blocks_item apartments").appendChild(imgparxviiiElement);
-const titreparxviiiElement = document.createElement("titre");
-titreparxviiiElement.innerText = "";
-document.querySelector(".blocks_item appartements").appendChild(titreparxviiiElement);
+document.querySelector(".gallery").appendChild(ParisvElement);
+document.querySelector(".appart").appendChild(imageParisvElement);
+document.querySelector(".appart").appendChild(figParisvElement);
 
+document.querySelector(".gallery").appendChild(SushisenElement);
+document.querySelector(".hobbies").appendChild(imageSushisenElement);
+document.querySelector(".hobbies").appendChild(figSushisenElement);
 
-const lullElement = document.createElement("figure");
-lullElement.classList.add("blocks_item hobbies");
-document.querySelector(".gallery").appendChild(lullElement);
-const imglullElement = document.createElement("img");
-document.querySelector(".blocks_item hobbies").appendChild(imglullElement);
-const titrelullElement = document.createElement("titre");
-titrelullElement.innerText = "";
-document.querySelector("blocks_item hobbies").appendChild(titrelullElement);
+document.querySelector(".gallery").appendChild(BalisiereElement);
+document.querySelector(".appart").appendChild(imageBalisiereElement);
+document.querySelector(".appart").appendChild(figBalisiereElement);
 
+document.querySelector(".gallery").appendChild(ThermopolisElement);
+document.querySelector(".objets").appendChild(imageThermopolisElement);
+document.querySelector(".objets").appendChild(figThermopolisElement);
 
-const arteElement = document.createElement("figure");
-arteElement.classList.add("blocks_item hobbies");
-document.querySelector(".gallery").appendChild(arteElement);
-const imgarteElement = document.createElement("img");
-document.querySelector(".blocks_item hobbies").appendChild(imgarteElement);
-const titrearteElement = document.createElement("titre");
-titrearteElement.innerText = "";
-document.querySelector("blocks_item hobbies").appendChild(titrearteElement);
+document.querySelector(".gallery").appendChild(ParisxElement);
+document.querySelector(".appart").appendChild(imageParisxElement);
+document.querySelector(".appart").appendChild(figParisxElement);
 
+document.querySelector(".gallery").appendChild(CoteauElement);
+document.querySelector(".appart").appendChild(imageCoteauElement);
+document.querySelector(".appart").appendChild(figCoteauElement);
 
-/*Creation buttons*/
+document.querySelector(".gallery").appendChild(FernezeElement);
+document.querySelector(".appart").appendChild(imageFernezeElement);
+document.querySelector(".appart").appendChild(figFernezeElement);
 
-const tousElement = document.createElement("button");
-tousElement.innerText = "Tous";
-tousElement.classList.add("list_item");
-document.querySelector(".list").appendChild(tousElement);
-tousElement.id = 'id.active';
+document.querySelector(".gallery").appendChild(ParisxviiiElement);
+document.querySelector(".appart").appendChild(imageParisxviiiElement);
+document.querySelector(".appart").appendChild(figParisxviiiElement);
 
-const objectsElement = document.createElement("button");
-objectsElement.innerText ="Objets";
-objectsElement.classList.add("list_item");
-document.querySelector(".list").appendChild(objectsElement);
+document.querySelector(".gallery").appendChild(LullabyElement);
+document.querySelector(".hobbies").appendChild(imageLullabyElement);
+document.querySelector(".hobbies").appendChild(figLullabyElement);
 
-const appartElement = document.createElement("button");
-appartElement.innerText ="Appartements";
-appartElement.classList.add("list_item");
-document.querySelector(".list").appendChild(appartElement);
-
-const hobbiesElement = document.createElement("button");
-hobbiesElement.innerText ="Hôtels & restaurants";
-hobbiesElement.classList.add("list_item");
-document.querySelector(".list").appendChild(hobbiesElement);
+document.querySelector(".gallery").appendChild(ArteElement);
+document.querySelector(".hobbies").appendChild(imageArteElement);
+document.querySelector(".hobbies").appendChild(figArteElement);
 
 
 
 /* Filter */
 
+   const list = document.querySelector(".list"),
+    listFiltrer = document.querySelectorAll(".gallery"),
+    listItems = document.querySelectorAll(".list_item")
 
-    
-    const listItems = document.querySelector(".list_item");
-    
-    function filters(){
-        list.addEventListener('click', event=>{
-          const targetId  = event.target.dataset.id
-          const target = event.target
-        !  console.log(targetId);
-          
-        if(target.classList.contains("list_item")){
-            
-            target.classList.add('active')
+    function filter(){
 
-            };
-          
-          switch(targetId){
-            case 'active':
-                getItems ("list")
-                break
-            case "objects":
-                getItems (targetId)
-              
-                break
-                case "appartements":
-                    getItems (targetId)
+        list.addEventListener('click', event =>{
+            const targetId = event.target.dataset.targetId
+            const target =event.target
 
+            if(target.classList.contains("list_item")){
+                listItems.forEach(listItem => listItem.classList.remove('active'))
+                target.classList.add("active")
 
-                break
-                case "hobbies":
-                    getItems (targetId)
-
-                break
-          }
-        })
-    }
-    filters()
-
-    function getItems(className){
-        items.forEach(item =>{
-            if(item.classList.contains(className)){
-                item.style.display = 'block'
-            } else {
-                item.style.display = 'none'
-    
             }
+            switch(targetId){
+                case 'all':
+                    getItems('gallery')
+                    break
+                case 'objets':
+                        getItems(targetId)
+                    break
+                    case 'appart':
+                        getItems(targetId)
+                    break
+                    case 'hobbies':
+                        getItems(targetId)
+                    break
+            }
+
         })
+        }
+        filter()
 
-
-
-    }
+        function getItems(className){
+            listFiltrer.forEach(item =>{
+                if (item.classList.contains(className)) {
+                 item.getElementsByClassName.display = 'block'
+                } else{
+                 item.style.display = 'none'
+                }
+             })
+        }
     
+   
+        
 
+        
+   
+   
+       
 
-
+    
+    
 
 
 

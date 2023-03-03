@@ -1,0 +1,20 @@
+const tousElement = document.createElement("button");
+tousElement.innerText = "Tous";
+tousElement.classList.add("list");
+document.querySelector(".listitem").appendChild(tousElement);
+tousElement.id = 'id.active';
+
+const objectsElement = document.createElement("button");
+objectsElement.innerText ="Objets";
+objectsElement.classList.add("list_objets");
+document.querySelector(".listitem").appendChild(objectsElement);
+
+const appartElement = document.createElement("button");
+appartElement.innerText ="Appartements";
+appartElement.classList.add("list_appart");
+document.querySelector(".listitem").appendChild(appartElement);
+
+const hobbiesElement = document.createElement("button");
+hobbiesElement.innerText ="Hôtels & restaurants";
+hobbiesElement.classList.add("list_resto");
+document.querySelector(".listitem").appendChild(hobbiesElement);

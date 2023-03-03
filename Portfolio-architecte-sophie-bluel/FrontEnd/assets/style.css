@@ -188,27 +188,37 @@ footer nav ul {
 /* JS Content */
 
 .list{
+	
 	display: flex;
 	justify-content: center;
 	margin-bottom: 60px;
+	margin-top: 51px;
+	width: 585px;
+	height: 37px;
+	margin-left: 300px;
+	
+
 }
 .list_item{
+	
+	display: inline;
+	color: #1D6154;
+	background-color: white;
 	font-family: "Syne";
-	padding: 10px;
+	padding-inline: 10px;
 	font-size: 16px;
 	font-weight: 700;
 	line-height: 19px;
-	text-align: center;
 	border: 1px solid #1D6154;
+	padding: 9px;
 	border-radius: 60px;
 	margin-left: 10px;
-	text-align:center;
-	
+	white-space: nowrap;
 }
-.list_item:hover{
+.list_item{
 	cursor: pointer;
 }
-#active{
+.active{
 	color: white;
-	background-color:  #1D6154;
+	background-color:  #1D6154;;
 }
