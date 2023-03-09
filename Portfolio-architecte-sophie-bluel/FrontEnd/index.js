@@ -28,7 +28,7 @@ function displayWorks() {
     figure.appendChild(image);
     figure.appendChild(figcaption);
     document.querySelector(".gallery").appendChild(figure);
-}}
+}};
 
     displayWorks();
 
@@ -123,6 +123,10 @@ document.querySelector(".gallery").appendChild(figure);
             }
         }
     })
+
+
+
+    
 
 
 

@@ -1,25 +1,58 @@
+const myForm = document.getElementById("myForm");
+myForm.addEventListener("submit", event => {
+    e.preventDefault();
+}) 
 
+ const email = document.getElementById("email");
+ const password = document.getElementById("password");
 
-
-
-
-
-
-
-
-let myForm = document.getElementById("myForm");
-let maPassword = document.getElementById("password");
-
-document.querySelector("submit").onclick = function(){
-    alert("Vous avec clique");
+ function valider(){
+    if (document.inputSaisie.email.value != ""){
+        document.inputSaisie.submit();
+        window.location.replace("index.html");
+    } else {
+        alert ("Erreur dans l'identifiant ou le mot de passe");
+        window.location.replace("login.html");
+    }
 }
 
-/*myForm.addEventListener("submit", function(e)
-    /*let myEmail = document.getElementById("email");
-    if(myEmail.ariaValueMax.trim() = ""){
-        letmyError = document.getElementById("error");
-        myError.innerHTML = "Le champ e-mail est requis";
-        myError.style.color = "red";
-        e.preventDefault();
-    }
-})*/
+let login = {
+    email: "string",
+    password: "string"
+  };
+
+        const response = await fetch('http://localhost:5678/api/users/login', {
+            method : "POST",
+            headers : {"Content-Type": "application/json"},
+            body : JSON.stringify(login)
+        });
+
+        let result = await response.json();
+        alert(result.message);
+
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
